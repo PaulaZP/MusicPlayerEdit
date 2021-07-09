@@ -2,8 +2,11 @@
 $colorWhite: #ffffff;
 $colorBlack: #000000;
 
+//btn
+$backgroundOrage: #FF9900;
+
 //colores de fondo
-$degradedOne: linear-gradient(146deg, rgba(24,30,44,1) 14%, rgba(255,128,0,1) 100%);
+$degradedOne: linear-gradient(146deg, rgba(24,30,44,0.90) 14%, rgba(255,128,0,0.50) 100%);
 $degradedTwo: linear-gradient(180deg, rgba(32,191,85,1) 14%, rgba(1,186,239,0.72) 100%);
 $degradedThree:linear-gradient(180deg, rgba(255,128,0,1) 0%, rgba(24,30,44,0.8127626050420168) 70%);
 $degradedFour: linear-gradient(117deg, rgba(26,31,42,1) 0%, rgba(255,128,0,0.7609418767507002) 46%);

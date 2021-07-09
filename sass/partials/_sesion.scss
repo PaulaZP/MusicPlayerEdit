@@ -12,13 +12,13 @@
   float: right;
   background: $degradedOne;
   border-radius: 12px;
-  margin: 180px 130px 180px 0;
+  margin: 85px 130px 180px 0;
   font-weight: bold;
   width: 400px;
-  height: 640px;
+  height: 750px;
 }
 form{
-  padding: 40px;
+  padding: 20px 40px;
 }
 .boxs input{
   padding: 5px 0;
@@ -26,4 +26,14 @@ form{
 }
 .boxs{
   padding: 12px 0;
+}
+.btn-submit{
+  background-color: $backgroundOrage;
+  border: none;
+  color: $colorWhite;
+  font-size: $p;
+  font-weight: bold;
+  padding: 10px 0;
+  margin-top: 8px;
+  width: 304px;
 }
