@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="wrapper-player">
+      <!-------------------------Artist---------------------------->
+      <div class="box-artist clearfix">
+        <div class="menu clearfix">
+          <ul>
+            <li><a href="#"><img src="./img/home.png" alt="Home"></a></li>
+            <li><a href="#"><img src="./img/profile.png" alt="Profile"></a></li>
+            <li><a href="#"><img src="./img/player.png" alt="Player"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="miModal" class="modal">
+        <div class="modal-contenido">
+
+          <h2 class="title-modal">Add to a list</h2>
+          <form class="form-modal" action="">
+            <label class="modal-label" for="new-list">New list</label>
+            <input class="modal-input" type="text" name="new-list" required ="required">
+          </form>
+
+          <label class="label-category" for="">Existing list</label>
+          <select class="select-category" name="" id="">
+            <option value="shopping">Select a list</option>
+          </select>
+
+          <a class="modal-a" href="#">Save Playlist</a>
+        </div>
+      </div>
+
+      <canvas id="canvas" width="1500" height="550"></canvas>
+
+      <div class="box-iconsPlayer">
+        <ul id="icons-player" class="icons-player clearfix">
+          <a class="addList" href="#miModal"><li><img src="./img/addList.png" alt="addList"></li></a>
+          <a class="previous"><li><img src="./img/previous.png" alt="Previous"></li></a>
+          <a class="play"><li><img src="./img/play.png" alt="Play"></li></a>
+          <a class="next"><li><img src="./img/next.png" alt="Next"></li></a>
+          <a class="favorite"><li><img src="./img/favorite.png" alt="Favorite"></li></a>
+        </ul>
+      </div>
+    </div>
+
+    <script src="./js/player.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,41 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper-player{
+  background-color: $backgroundBlue;
+  color: $colorWhite;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 1024px;
+  margin: 0 auto;
+}
+.box-iconsPlayer{
+  margin-top: 30px;
+}
+.icons-player{
+  list-style: none;
+}
+.icons-player{
+  margin-left: 200px;
+}
+.icons-player a{
+  float: left;
+}
+.addList{
+  padding-right: 628px;
+}
+.previous{
+  padding-right: 30px;
+  margin-left: 0px;
+}
+
+.play{
+  padding-right: 30px;
+  margin-left: 0px;
+}
+
+.next{
+  padding-right: 600px;
+  margin-left: 0px;
+}

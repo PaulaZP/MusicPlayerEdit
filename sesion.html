@@ -11,11 +11,22 @@
     <title>Music Player</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div>
-        <h2>Artists</h2>
+    <div class="wrapper-sesion">
+      <!-------------------------Artist---------------------------->
+      <div class="box-artist clearfix">
+        <div class="menu">
+          <ul>
+            <li><a href="#"><img src="./img/home.png" alt="Home"></a></li>
+          </ul>
+        </div>
+
+        <h2 class="title-artist-sesion">Artists</h2>
+
+        <ul id="character-list" class="item-ul clearfix"></ul>
       </div>
-      <div class="box-form">
+
+      <!-------------------------sesion---------------------------->
+      <div class="box-form clearfix">
         <form action="#" method="get">
           <div class="box-form-sing">
             <h3>Sing in</h3>
@@ -29,6 +40,7 @@
                 <label for="password">Password</label>
                 <input type="text" name="password" class="account" required ="required">
             </div>
+
             <button class = "btn-submit" type="submit" value="submit">Log-in</button>
           </div>
         </form>
@@ -56,12 +68,11 @@
               <label for="password">Confirm password</label>
               <input type="text" name="password" class="account" required ="required">
             </div>
+
             <button class = "btn-submit" type="submit" value="submit">Create Account</button>
           </div>
         </form>
       </div>
-      <!---->
-      <ul id="character-list"></ul>
     </div>
     <script src="./js/sesion.js"></script>
   </body>
