@@ -1,3 +1,5 @@
+import {apiArtist} from './api.js';
+apiArtist();
 class GeneralPlayer{
   constructor(data){
     this.data = data;
@@ -23,10 +25,5 @@ class GeneralPlayer{
     }
   }
 }
+export default GeneralPlayer;
 
-fetch('https://kt2ul4cwza.execute-api.us-east-2.amazonaws.com/public/artists')
-.then((response) => response.json())
-.then((data) => {
-  const prueba2 = new GeneralPlayer(data);
-  prueba2.artist();
-});
