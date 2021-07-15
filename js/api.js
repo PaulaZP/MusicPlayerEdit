@@ -1,4 +1,4 @@
-import GeneralPlayer from './sesion.js'
+import GeneralPlayer from './sesion.js';
 
 function apiArtist(){
   fetch('https://kt2ul4cwza.execute-api.us-east-2.amazonaws.com/public/artists')

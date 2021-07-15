@@ -1,9 +1,8 @@
-.modal-contenido a{
-  color: #ffffff;
+.modal-contenido button{
+  color: $colorWhite;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  margin-left: 40px;
   background: $backgroundBlue-Black;
   padding: 10px 149px;
   border-radius: 4px;
@@ -11,9 +10,10 @@
 }
 
 .title-modal {
-  color: white;
+  color: $colorWhite;
   font-weight: bold;
   margin-bottom: 0px;
+  margin-left: 40px;
 }
 
 .modal-contenido {
@@ -25,6 +25,13 @@
   margin-left: 700px;
   margin-top: 250px;
   position: relative;
+}
+.btn-x{
+  float: right;
+  padding: 10px 10px 0 0;
+  text-decoration: none;
+  color: $colorWhite;
+  font-weight: bold;
 }
 
 .modal {
@@ -43,11 +50,7 @@
   opacity:1;
   pointer-events:auto;
 }
-.label-category{
-  margin-left: 40px;
-}
 .select-category{
-  margin-left: 40px;
   margin-bottom: 50px;
   padding: 5px 150px;
   border-radius: 4px;
@@ -59,4 +62,5 @@
   padding: 5px 110px;
   border-radius: 4px;
   border: none;
+  margin-bottom: 20px;
 }

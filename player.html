@@ -25,19 +25,19 @@
 
       <div id="miModal" class="modal">
         <div class="modal-contenido">
-
+          <a class="btn-x" href="#">X</a>
           <h2 class="title-modal">Add to a list</h2>
           <form class="form-modal" action="">
             <label class="modal-label" for="new-list">New list</label>
             <input class="modal-input" type="text" name="new-list" required ="required">
+
+            <label class="label-category" for="">Existing list</label>
+            <select class="select-category" name="" id="">
+              <option value="shopping">Select a list</option>
+            </select>
+
+            <button class="modal-a">Save Playlist</button>
           </form>
-
-          <label class="label-category" for="">Existing list</label>
-          <select class="select-category" name="" id="">
-            <option value="shopping">Select a list</option>
-          </select>
-
-          <a class="modal-a" href="#">Save Playlist</a>
         </div>
       </div>
 
@@ -45,16 +45,16 @@
 
       <div class="box-iconsPlayer">
         <ul id="icons-player" class="icons-player clearfix">
-          <a class="addList" href="#miModal"><li><img src="./img/addList.png" alt="addList"></li></a>
-          <a class="previous"><li><img src="./img/previous.png" alt="Previous"></li></a>
-          <a class="play"><li><img src="./img/play.png" alt="Play"></li></a>
-          <a class="next"><li><img src="./img/next.png" alt="Next"></li></a>
-          <a class="favorite"><li><img src="./img/favorite.png" alt="Favorite"></li></a>
+          <a id="addList" class="addList" href="#miModal"><li><img src="./img/addList.png" alt="addList"></li></a>
+          <a id="previous" class="previous"><li><img src="./img/previous.png" alt="Previous"></li></a>
+          <a id="play" class="play"><li><img src="./img/play.png" alt="Play"></li></a>
+          <a id="next" class="next"><li><img src="./img/next.png" alt="Next"></li></a>
+          <a id="favorite" class="favorite"><li><img src="./img/favorite.png" alt="Favorite"></li></a>
         </ul>
       </div>
     </div>
 
-    <script src="./js/player.js"></script>
+    <script type="module" src="./js/player.js"></script>
   </body>
 </html>
 

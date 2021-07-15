@@ -129,21 +129,21 @@ body {
   padding-right: 600px;
   margin-left: 0px; }
 
-.modal-contenido a {
+.modal-contenido button {
   color: #ffffff;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  margin-left: 40px;
   background: linear-gradient(180deg, black 0%, rgba(85, 112, 173, 0.29) 100%);
   padding: 10px 149px;
   border-radius: 4px;
   border: none; }
 
 .title-modal {
-  color: white;
+  color: #ffffff;
   font-weight: bold;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  margin-left: 40px; }
 
 .modal-contenido {
   background: linear-gradient(180deg, rgba(255, 128, 0, 0.72) 0%, rgba(0, 76, 255, 0.29) 100%);
@@ -154,6 +154,13 @@ body {
   margin-left: 700px;
   margin-top: 250px;
   position: relative; }
+
+.btn-x {
+  float: right;
+  padding: 10px 10px 0 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold; }
 
 .modal {
   background-color: rgba(0, 0, 0, 0.7);
@@ -170,11 +177,7 @@ body {
   opacity: 1;
   pointer-events: auto; }
 
-.label-category {
-  margin-left: 40px; }
-
 .select-category {
-  margin-left: 40px;
   margin-bottom: 50px;
   padding: 5px 150px;
   border-radius: 4px; }
@@ -185,4 +188,5 @@ body {
 .modal-input {
   padding: 5px 110px;
   border-radius: 4px;
-  border: none; }
+  border: none;
+  margin-bottom: 20px; }
