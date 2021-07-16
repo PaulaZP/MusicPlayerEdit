@@ -25,10 +25,6 @@ class Audio{
 }
 export default Audio;
 
-
-
-
-
 function next(){
   const btnNext = document.querySelector('#next');
   btnNext.addEventListener('click', () =>{
