@@ -1,5 +1,7 @@
-import {apiArtist} from './api.js';
+import {apiArtist} from './apiArtist.js';
+
 apiArtist();
+
 class GeneralPlayer{
   constructor(data){
     this.data = data;
